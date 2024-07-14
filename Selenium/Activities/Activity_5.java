@@ -12,18 +12,13 @@ public class Activity_5 {
 		drive.get("https://v1.training-support.net/selenium/input-events");
 		System.out.println("Home page Title is: "+drive.getTitle());
 		Actions action =new Actions(drive);
-		//left click
 		
 		action.click().pause(1000).build().perform();
 		String cubeValue_left=drive.findElement(By.className("active")).getText();
 		System.out.println("left click cube value is: "+cubeValue_left);
-		//double click
-		
 		action.doubleClick().pause(1000).build().perform();
 		String cubeValue_double=drive.findElement(By.className("active")).getText();
 		System.out.println("double click cube value is: "+cubeValue_double);
-		
-		//right click
 		action.contextClick().pause(1000).build().perform();
 		String cubeValue_right=drive.findElement(By.className("active")).getText();
 		System.out.println("right click cube value is: "+cubeValue_right);
