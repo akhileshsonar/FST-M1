@@ -19,7 +19,7 @@ public class Activity_19 {
 		Alert confirmAlert = driver.switchTo().alert();
 
 		String mag = confirmAlert.getText();
-		System.out.println("Text in alert: " + mag);
+		System.out.println("Text in alert is: " + mag);
 		Thread.sleep(3000);
 		confirmAlert.accept();
 		driver.findElement(By.id("confirm")).click();
