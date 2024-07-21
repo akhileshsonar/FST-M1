@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ExampleSuite" >
+<test name="Test">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="password"/>
+        <classes>
+            <class name="Activities.Activity_1"/>
+            <class name="Activities.Activity_2"/>
+            <class name="Activities.Activity_3"/>
+            <class name="Activities.Activity_4_1"/>
+            <class name="Activities.Activity_4_1"/>
+            <class name="Activities.Activity_5_testNg_group"/>
+            <class name="Activities.Activity_6"/>
+            <class name="Activities.Activity_7"/>
+        </classes>
+    </test>
+</suite>

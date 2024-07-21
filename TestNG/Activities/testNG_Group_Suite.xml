@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ExampleSuite" >
+    <test name="SuiteTests" >
+    <groups>
+	    <run>
+		<include name="HeaderTests" />
+	    </run>
+	</groups>
+        <classes>
+            <class name="Activities.Activity_4_1"/>
+            <class name="Activities.Activity_5_testNg_group"/>
+        </classes>
+    </test>
+</suite>
